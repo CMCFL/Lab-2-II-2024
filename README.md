@@ -80,7 +80,7 @@ public class HerramientasClimaTest {
 4. Ejecute el análisis de cobertura para su programa. Verifique los porcentajes de cobertura.
 5. Verifique las métricas de cobertura: (conteo de lineas, conteo de ramas, etc.)
 
-### Escribiendo tests adicionalesw
+### Escribiendo tests adicionales
 
 Completar *HerramientasClimaTest.java* escribiendo un conjunto de métodos apropiados de tests. Usted puede verificar la 
 cobertura de su código en IntelliJ. Completar los tests hasta conseguir una cobertura de 100% para el método.
