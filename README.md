@@ -163,7 +163,7 @@ los siguientes menús: **File -> Project Structure -> Project Settings -> Module
 4. Ejecute los casos de tests y confirme que al menos uno de los tests falla. Obtenga un pantallazo mostrando lo anterior
 y adjúntelo en CampusVirtual.
 
-### Parte 3
+## Parte 3
 
 ---
 
