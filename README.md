@@ -25,8 +25,8 @@ a las condiciones climáticas.
 Si algunas de estas condiciones se cumplen, el campus será cerrado:
 
 1. Mas de 6 pulgadas de lluvias son predecidas para las próximas 24 horas.
-2. Ráfagas de vientos de mas de 70 mph son predecidos dentro las próximas 24 horas.
-3. Si se predice que habrá mas nde 4 pulgadas de lluvias y rágafas de viento por sobre los 45 mph.
+2. Ráfagas de vientos de mas de 70 mph son predecidas dentro las próximas 24 horas.
+3. Si se predice que habrá mas de 4 pulgadas de lluvias y rágafas de viento por sobre los 45 mph.
 
 Si no se cumplen ninguna de las condiciones, la universidad podrá seguir advirtiendo a los funcionarios y estudiantes
 a no realizar actividades fuera de los edificios. Señales de advertencia son ejecutadas cuando:
@@ -37,7 +37,7 @@ a no realizar actividades fuera de los edificios. Señales de advertencia son ej
 La clase *HerramientasClima* que se encuentra en el paquete cl.ucn.modelo es parte del sistema de alertas y soporte a la
 desición.
 
-El método *weatherAdvice* implementa la política descrita previamente. Su tarea consiste en desarrollar un conjunto de 
+El método *consejoClimatico* implementa la política descrita previamente. Su tarea consiste en desarrollar un conjunto de 
 pruebas unitarias que verifiquen la correcta implementación de este método. Estas pruebas deben asegurar que el método 
 funcione correctamente y, además, deben confirmar que se lanza la excepción adecuada cuando el método recibe una entrada 
 inválida.
@@ -53,7 +53,7 @@ siguiente código:
 
 ```java
 /**
- * Tests the WeatherUtils class.
+ * Tests de HerramientasClimaTest.
  *
  * @author
  * @version
@@ -114,9 +114,9 @@ de la línea donde se espera el *throw*.
 ```java 
 /**
  * Test que el constructor se valida apropiadamente.
- * NOTE: the Atom class is just an example, the idea here is that the Atom
- * class's constructor should throw an IllegalArgumentException if the
- * atomic number or atomic weight are invalid (e.g. negative).
+ * NOTE: la clase Atom es solo de ejemplo
+ * el constructor de la clase debe lanzar un IllegalArgumentException si la
+ * el número atómico o peso son inválidos (ej. negativos).
  */
 @Test
 public void constructor_ArgumentoIlegal() {
