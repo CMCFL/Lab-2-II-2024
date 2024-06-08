@@ -165,6 +165,8 @@ y adjúntelo en CampusVirtual.
 
 ### Parte 3
 
+---
+
 Existe una base de datos llamada **clima.db**. Esta tabla contiene los valores por año desde el 2014 a la fecha de 
 la velocidad del viento y lluvia caída en promedio de 12 meses en una determinada ciudad. Los valores se muestran en la 
 siguiente figura.
