@@ -88,7 +88,7 @@ cobertura de su código en IntelliJ. Completar los tests hasta conseguir una cob
 Una vez que se sienta confiado que sus tests unitarios son suficientes, demuéstrelo generando un reporte de cobertura 
 que se genera con el botón en rectángulo rojo que se muestra en la figura a continuación.
 
-![](/home/dsanmartins/IdeaProjects/Lab-2-II-2024/imagenes/reporteCobertura.png)
+![reporteCobertura](imagenes/reporteCobertura.png)
 
 Este reporte debe subirlo a la plataforma CampusVirtual UCN.
 
@@ -155,7 +155,7 @@ precompilado que se ha codificado intencionalmente para que contenga al menos un
 3. En el **nuevo proyecto** copie su clase desarrollada *HerramientasClimaTest.java*. Además, copie la clase precompilada que se encuentra
 en la carpeta *precompilado* de este proyecto (HerramientasClima.class) y agréguelo al Java Build Path como se muestra en la figura a continuación
 
-![](/home/dsanmartins/IdeaProjects/Lab-2-II-2024/imagenes/javabuildpath.png)
+![javabuildpath](imagenes/javabuildpath.png)
 
 Debe crear una carpeta en el nuevo proyecto y guardar la clase de test. Para acceder al menú de la figura debe navegar por
 los siguientes menús: **File -> Project Structure -> Project Settings -> Modules**
@@ -171,7 +171,7 @@ Existe una base de datos llamada **clima.db**. Esta tabla contiene los valores p
 la velocidad del viento y lluvia caída en promedio de 12 meses en una determinada ciudad. Los valores se muestran en la 
 siguiente figura.
 
-![](/home/dsanmartins/IdeaProjects/Lab-2-II-2024/imagenes/tabla.png)
+![tabla](imagenes/tabla.png)
 
 Implemente las siguientes consultas usando JPA (https://jakarta.ee/learn/docs/jakartaee-tutorial/current/persist/persistence-querylanguage/persistence-querylanguage.html
 ) y construya los casos de test asociados.
