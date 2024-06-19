@@ -152,13 +152,15 @@ precompilado que se ha codificado intencionalmente para que contenga al menos un
 
 1. Cree un nuevo proyecto Java.
 2. Asegúrese que el proyecto tiene acceso a JUnit5
-3. En el **nuevo proyecto** copie su clase desarrollada *HerramientasClimaTest.java*. Además, copie la clase precompilada que se encuentra
-en la carpeta *precompilado* de este proyecto (HerramientasClima.class) y agréguelo al Java Build Path como se muestra en la figura a continuación
+3. En el **nuevo proyecto** copie su clase desarrollada *HerramientasClimaTest.java*. Además, copie la libreria (.jar) 
+ que se encuentra en la carpeta *libs* de este proyecto (clima.jar) y agréguelo al Java Build Path como se muestra en la figura a continuación
 
 ![javabuildpath](imagenes/javabuildpath.png)
 
 Debe crear una carpeta en el nuevo proyecto y guardar la clase de test. Para acceder al menú de la figura debe navegar por
-los siguientes menús: **File -> Project Structure -> Project Settings -> Modules**
+los siguientes menús: **File -> Project Structure -> Project Settings -> Modules**, en la pestaña Dependencies.
+
+4. Importar la única clase de la libreria .jar (**import cl.ucn.clima.HerramientasClima**) en la clase de test.
 
 4. Ejecute los casos de tests y confirme que al menos uno de los tests falla. Obtenga un pantallazo mostrando lo anterior
 y adjúntelo en CampusVirtual.
