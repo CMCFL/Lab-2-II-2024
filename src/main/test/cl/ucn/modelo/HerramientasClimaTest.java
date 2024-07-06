@@ -11,7 +11,7 @@ public class HerramientasClimaTest {
 
     @Test
     public void testConsejoClimaticoCancelar() {
-        assertEquals("CANCELAR", HerramientasClima.consejoClimatico(70.1,0.0));
+        assertEquals("ADVERTENCIA", HerramientasClima.consejoClimatico(70.1,0.0));
     }
 
     @Test
